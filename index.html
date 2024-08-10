@@ -6,23 +6,24 @@
         <div class="container">
             <div class="team">
                 <h3>HOME</h3>
-                <h4 class="scorecard">0</h4>
+                <h4 class="scorecard" id="score-home">0</h4>
                 <div class="button">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="home_1()">+1</button>
+                    <button onclick="home_2()">+2</button>
+                    <button onclick="home_3()">+3</button>
                 </div>
             </div>
             <div class="team">
                 <h3>GUEST</h3>
-                <h4 class="scorecard">0</h4>
+                <h4 class="scorecard" id="score-away">0</h4>
                 <div class="button">
-                    <button>+1</button>
-                    <button>+2</button>
-                    <button>+3</button>
+                    <button onclick="away_1()">+1</button>
+                    <button onclick="away_2()">+2</button>
+                    <button onclick="away_3()">+3</button>
                 </div>
             </div>
         </div>
+        <button id="btn-reset" onclick="reset()">Reset</button>
         <script src="index.js"></script>
     </body>
 </html>

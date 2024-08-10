@@ -6,7 +6,6 @@ body {
     font-weight: bold;
     font-size: x-large;
     text-align: center;
-    margin: 0;
 }
 
 button {
@@ -24,11 +23,12 @@ h3 {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
 }
 
 .scorecard {
-    margin: 10px auto;
+    margin: 10px auto ;
     font-family: "CursedTimerUlil";;
     color: #E66060;
     background-color: black;
@@ -38,12 +38,18 @@ h3 {
     justify-content: center;
     align-items: center;
     height: 80px;
-    width: 120px;
-    border-radius: 10px;
+    width: 100px;
+    border-radius: 5px;
 
 }
 
 @font-face {
     font-family: "CursedTimerUlil" ;
     src: url("assets/CursedTimerUlil-Aznm.ttf")
+}
+
+
+
+#reset-btn{
+    margin: 100px;
 }
